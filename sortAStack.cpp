@@ -17,10 +17,14 @@ stack(bottom to top): 1234 is sorted
  */
 
 /*
-Solution 1: 
-TC:  */
+Solution 1: Search minimum in stack, and push it to resultant stack. It would require 1 more stack to act as buffer while finding minimum.
+TC: O(n^2), SC: 3n */
 
-/* Solution2:  */
+/* Solution2: Use just 1 more resultant stack.
+TC: O(n^2), SC: 2n
+
+Solution 3: Use aditya verma's sort stack through recursion
+ */
   
 
   
